@@ -1,0 +1,65 @@
+﻿@model IEnumerable<GirisProjesi4.Models.Urun>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ürünler</title>
+    <link rel="stylesheet" href="~/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            padding: 20px;
+            border: solid medium black;
+            font-size: 20pt
+        }
+
+        table td {
+            background-color: lemonchiffon
+        }
+    </style>
+</head>
+<body>
+    Bu projede yapılan uygulamalar;
+    <ul>
+        <li>  
+            <h6>Birim Test Geliştirme ve Test Güdümlü Geliştirme(Unit Testing | Test-Driven Development)</h6>
+        </li>
+        <li>
+            <h6>Sahte Obje Oluşturma(Mocking)'da Kullanmak Üzere MOQ Yüklenmesi/Kullanılması</h6>
+        </li>
+    </ul>
+    <div style="height:50px">
+    <span style="position:absolute; right:50px">Tayfun Adakoğlu</span>
+    </div>
+    
+    <table class="table table-bordered table-light" >
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Ürün Adı</td>
+                <td>Aciklama</td>
+                <td>Kategori</td>
+                <td>Fiyat</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in Model)
+            {
+            <tr>
+                <td>@u.UrunID</td>
+                <td>@u.Isim</td>
+                <td>@u.Aciklama</td>
+                <td>@u.Kategori</td>
+                <td>@($"{u.Fiyat:C2}")</td>      @* C2 uygulama local dil para birimini getirir ekler.*@         
+            </tr>
+            }
+        </tbody>
+        
+    </table>
+    <a class="btn btn-dark" asp-action="UrunEkle">Ürün Ekle</a>
+</body>
+</html>

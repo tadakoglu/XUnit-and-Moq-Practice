@@ -1,0 +1,27 @@
+﻿Equal(expected, result) This method asserts that the result is equal to the expected
+						outcome. There are overloaded versions of this method for
+						comparing different types and for comparing collections. There is
+						also a version of this method that accepts an additional argument
+						of an object that implements the IEqualityComparer<T> interface
+						for comparing objects.
+NotEqual(expected, result) This method asserts that the result is not equal to the expected
+outcome.
+
+True(result) This method asserts that the result is true.
+
+False(result) This method asserts that the result is false.
+
+IsType(expected, result) This method asserts that the result is of a specific type.
+
+IsNotType(expected, result) This method asserts that the result is not a specific type.
+
+IsNull(result) This method asserts that the result is null.
+
+IsNotNull(result) This method asserts that the result is not null.
+
+InRange(result, low, high) This method asserts that the result falls between low and high.
+
+NotInRange(result, low, high) This method asserts that the result falls outside low and high.
+
+Throws(exception, expression) This method asserts that the specified expression throws a
+specific exception type.

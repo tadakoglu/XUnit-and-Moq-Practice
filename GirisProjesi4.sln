@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GirisProjesi4", "GirisProjesi4\GirisProjesi4.csproj", "{25ED1338-F14B-4D08-A4E7-65EFE6939954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GirisProjesi4.BirimTestler", "GirisProjesi4.BirimTestler\GirisProjesi4.BirimTestler.csproj", "{370C30BC-1595-4901-89C5-A9063B438E47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25ED1338-F14B-4D08-A4E7-65EFE6939954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25ED1338-F14B-4D08-A4E7-65EFE6939954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25ED1338-F14B-4D08-A4E7-65EFE6939954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25ED1338-F14B-4D08-A4E7-65EFE6939954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370C30BC-1595-4901-89C5-A9063B438E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370C30BC-1595-4901-89C5-A9063B438E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370C30BC-1595-4901-89C5-A9063B438E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370C30BC-1595-4901-89C5-A9063B438E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C78FD4E-11C0-4F3F-9332-A3619B52C236}
+	EndGlobalSection
+EndGlobal

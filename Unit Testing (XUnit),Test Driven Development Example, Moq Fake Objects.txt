@@ -1,0 +1,3 @@
+Yapýlan Uygulamalar
+Unit Test geliþtirme,Test Güdümlü Geliþtirme, Sahte Obje aracý MOQ yüklenmesi,  
+css.min js.min dosyalarý oluþturmak için Minifier ve Bundler Eklentisi Yüklenmesi
